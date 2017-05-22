@@ -8,7 +8,7 @@ noop is a simple function that always returns `undefined`
 // lodash & lodash/fp
 _.noop; // => 'undefined'
 
-ES6
+// ES6
 () => undefined;
 
 // Codegolf
@@ -41,10 +41,10 @@ return the given value
 // lodash & lodash/fp
 _.identity(x); // returns x
 
-ES6
+// ES6
 (x) => x;
 
-Codegolf
+// Codegolf
 x=>x
 ```
 
