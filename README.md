@@ -90,7 +90,7 @@ _.isString(x); // true or false
 // ES6
 typeof x === 'string';
 // for checking 'new String()' add the following
-x istanceof String;
+x instanceof String;
 
 // Codegolf
 x===x+''
