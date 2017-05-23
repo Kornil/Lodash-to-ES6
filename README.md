@@ -109,3 +109,32 @@ x === Object(x);
 // Codegolf
 x===Object(x) // no idea how to optimize this
 ```
+
+### isEmpty
+check if value is empty (arrays, objects, strings)
+
+```
+// lodash & lodash/fp
+_.isEmpty(x); // true or false
+
+// ES6
+x.length === 0;
+
+// Codegolf
+!x.length
+```
+
+### toLower
+convert string to lowercase
+
+```
+// lodash & lodash/fp
+_.toLower(x); // true or false
+
+// ES6
+x.toLowerCase();
+
+// Codegolf
+// if you are not allowed to use .toLowerCase()
+x.replace(/[A-Z]/g,$=>String.fromCharCode($.charCodeAt()+32)))
+```
