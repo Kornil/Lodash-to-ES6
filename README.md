@@ -129,7 +129,7 @@ convert string to lowercase
 
 ```
 // lodash & lodash/fp
-_.toLower(x); // true or false
+_.toLower(x);
 
 // ES6
 x.toLowerCase();
