@@ -138,3 +138,18 @@ x.toLowerCase();
 // if you are not allowed to use .toLowerCase()
 x.replace(/[A-Z]/g,$=>String.fromCharCode($.charCodeAt()+32)))
 ```
+
+### isFunction
+check if value is a function
+
+```
+// lodash & lodash/fp
+_.isFunction(x); // true or false
+
+// ES6
+typeof x === 'function';
+
+// Codegolf
+// .call is a unique property of functions
+!!x.call
+```
